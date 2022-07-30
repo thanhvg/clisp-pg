@@ -1,6 +1,6 @@
-(defpackage pg
+(defpackage thanh-pg
   (:use :cl :cl-who :hunchentoot))
-(in-package :pg)
+(in-package :thanh-pg)
 
 (defvar *h* (make-instance 'easy-acceptor :port 3000))
 

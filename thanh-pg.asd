@@ -1,4 +1,4 @@
-(defsystem "pg"
+(defsystem "thanh-pg"
   :version "0.1.0"
   :author ""
   :license ""
@@ -7,12 +7,12 @@
                 :components
                 ((:file "main"))))
   :description ""
-  :in-order-to ((test-op (test-op "pg/tests"))))
+  :in-order-to ((test-op (test-op "thanh-pg/tests"))))
 
-(defsystem "pg/tests"
+(defsystem "thanh-pg/tests"
   :author ""
   :license ""
-  :depends-on ("pg"
+  :depends-on ("thanh-pg"
                "rove")
   :components ((:module "tests"
                 :components

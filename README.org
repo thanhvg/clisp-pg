@@ -3,5 +3,5 @@
 ** Usage
 
 ** Installation
-open the asdf file, enable slime, =C-C C-k=  then in slime =(ql:quickload "pg")=
+open the asdf file, enable slime, =C-C C-k=  then in slime =(ql:quickload "thanh-pg")=
 http://lispcookbook.github.io/cl-cookbook/getting-started.html#how-to-load-an-existing-project
