@@ -19,6 +19,5 @@
        (:input :type :submit :value "Submit your nanme"))
       (:p "Hello " (str name))))))
 
-
 (hunchentoot:start *h*)
 ;; (hunchentoot:stop *h*)
